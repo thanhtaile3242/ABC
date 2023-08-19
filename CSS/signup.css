@@ -1,0 +1,202 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.leftRight {
+    height: 100%;
+    width: 50%;
+}
+#leftSide {
+    float: left;
+}
+#rightSide {
+    float: right;
+}
+
+#formWrap {
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100%;
+}
+
+#formContent {
+    box-sizing: border-box;
+    padding: 48px 115px 64px;
+    height: 100%;
+}
+/* Thẻ sign up và log in */
+#SandL {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.SignLog {
+    font-size: 30px;
+    margin: 0 32px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.SignLog a{
+    text-decoration: none; 
+    color: black
+}
+
+#cross {
+    width: 97px;
+    height: 5px;
+    background-color: #e9b384;
+}
+
+.div-GF {
+    text-align: center;
+    margin-bottom: 16px;
+    height: 66px;
+    box-sizing: border-box;
+}
+
+.aGF {
+    border: 1px solid #d9dde8;
+    border-radius: 5px;
+    padding: 20px 32px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #586380;
+    text-decoration: none;
+    display: block;
+}
+
+/* Or email */
+#div-email {
+    margin-top: 32px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cross2 {
+    float: left;
+    width: 220px;
+}
+
+.cross2 hr{
+    border: 1px solid #d9dde8"
+}
+#or-email{
+    box-sizing: border-box;
+    float: left;
+    width: 120px;
+    text-align: center;
+}
+
+#or-email span{
+    font-weight: 600;
+    font-size: 16px;
+    color: #586380;
+}
+
+/* Form */
+form{
+    margin-top: 32px;
+}
+/* Birthday */
+.div-info{
+    margin-bottom: 30px
+}
+
+.text-1{
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 16px;
+    color: #586380;
+}
+
+.user-input{
+    display: flex;
+    margin-top: 13px;
+}
+
+.format-birthday{
+    width: 130px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    margin-right: 35px;
+}
+
+.format-birthday select{
+    border: 0;
+    padding: 10px 0;
+    width: 97px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+/* Email */
+.user-input input{
+    color: black;
+    font-size: 16px;
+    width: 545px;
+    height: 25px;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+    font-stretch: expanded;
+    letter-spacing: 1px;
+}
+
+/* Checkbox */
+#div-checkbox{
+    display: flex;
+    align-items: flex-end;
+}
+
+#div-checkbox input{
+    width: 18px; 
+    height: 18px
+}
+
+#div-checkbox span{
+    font-size: 16px;
+    margin-left: 16px;
+    color: rgb(88, 99, 128);
+}
+#div-checkbox span a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(88, 99, 128);
+}
+
+/* Button submit */
+
+#input-submit{
+    box-sizing: border-box;
+    width: 571px;
+    height: 75px;
+    margin: 0;
+    background-color: #a1ccd1;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 8px;
+}
+
+
+
+/* Icon */
+#google i{
+    color: #ed2607;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+#facebook i {
+    color: #0b82ee;
+    font-size: 25px;
+    margin-right: 5px;
+}
